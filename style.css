@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    color: #333;
+    background-color: #fff;
+  }
+  
+  .hero {
+    background: url("boston_2.png") center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+  }
+  
+  .overlay {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .hero-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  .hero-date {
+    font-size: 1rem;
+    font-style: italic;
+  }
+  
+  .main-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    background-color: #f4ede6;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .main-nav a {
+    text-decoration: none;
+    color: #b7410e;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .main-nav a:hover {
+    color: #d32f2f;
+  }
+  
+  section {
+    padding: 3rem 1.5rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #b7410e;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    padding: 0.75rem 2rem;
+    background-color: #b7410e;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  form button:hover {
+    background-color: #d32f2f;
+  }
+  
